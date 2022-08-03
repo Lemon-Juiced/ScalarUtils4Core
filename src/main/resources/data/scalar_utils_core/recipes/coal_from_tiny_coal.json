@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_core:tiny_coal"
+    },
+    {
+      "item": "scalar_utils_core:tiny_coal"
+    },
+    {
+      "item": "scalar_utils_core:tiny_coal"
+    },
+    {
+      "item": "scalar_utils_core:tiny_coal"
+    },
+    {
+      "item": "scalar_utils_core:tiny_coal"
+    },
+    {
+      "item": "scalar_utils_core:tiny_coal"
+    },
+    {
+      "item": "scalar_utils_core:tiny_coal"
+    },
+    {
+      "item": "scalar_utils_core:tiny_coal"
+    }
+  ],
+  "result": {
+    "item": "minecraft:coal",
+    "count": 1
+  }
+}

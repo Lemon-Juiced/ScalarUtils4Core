@@ -1,0 +1,11 @@
+{
+  "item.scalar_utils_core.flour": "Flour",
+  "item.scalar_utils_core.glass_cutter": "Glass Cutter",
+  "item.scalar_utils_core.tiny_charcoal": "Tiny Charcoal",
+  "item.scalar_utils_core.tiny_coal": "Tiny Coal",
+
+  "block.scalar_utils_core.black_lotus": "Black Lotus",
+  "block.scalar_utils_core.potted_black_lotus": "Potted Black Lotus",
+
+  "itemGroup.scalar_utils_tab": "Scalar Utils 4: Core"
+}
