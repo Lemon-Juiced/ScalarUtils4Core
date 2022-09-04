@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "scalar_utils_core:artificial_slimeball"
   ]
