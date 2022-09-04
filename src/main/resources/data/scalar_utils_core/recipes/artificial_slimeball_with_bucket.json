@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#W#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:crops/rice"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "scalar_utils_core:artificial_slimeball",
+    "count": 4
+  }
+}

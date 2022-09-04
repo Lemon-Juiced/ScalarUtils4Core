@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_core:artificial_slimeball"
+    }
+  ],
+  "result": {
+    "item": "minecraft:slime_ball",
+    "count": 1
+  }
+}

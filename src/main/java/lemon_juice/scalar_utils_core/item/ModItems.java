@@ -13,6 +13,9 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ScalarUtilsCore.MOD_ID);
 
+    //Artificial Slimeball
+    public static final RegistryObject<Item> ARTIFICIAL_SLIMEBALL = ITEMS.register("artificial_slimeball", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
+
     //Flour
     public static final RegistryObject<Item> FLOUR = ITEMS.register("flour", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SCALAR_UTILS_TAB)));
 
