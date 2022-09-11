@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "scalar_utils_core:illumination_powder"
+    },
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:brown_dye"
+    }
+  ],
+  "result": {
+    "item": "scalar_utils_core:brown_illumination_block",
+    "count": 1
+  }
+}
