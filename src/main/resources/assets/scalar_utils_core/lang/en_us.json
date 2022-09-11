@@ -6,8 +6,24 @@
   "item.scalar_utils_core.tiny_charcoal": "Tiny Charcoal",
   "item.scalar_utils_core.tiny_coal": "Tiny Coal",
 
+  "block.scalar_utils_core.black_illumination_block": "Black Illumination Block",
   "block.scalar_utils_core.black_lotus": "Black Lotus",
+  "block.scalar_utils_core.blue_illumination_block": "Blue Illumination Block",
+  "block.scalar_utils_core.brown_illumination_block": "Brown Illumination Block",
+  "block.scalar_utils_core.cyan_illumination_block": "Cyan Illumination Block",
+  "block.scalar_utils_core.gray_illumination_block": "Gray Illumination Block",
+  "block.scalar_utils_core.green_illumination_block": "Green Illumination Block",
+  "block.scalar_utils_core.light_blue_illumination_block": "Light Blue Illumination Block",
+  "block.scalar_utils_core.light_gray_illumination_block": "Light Gray Illumination Block",
+  "block.scalar_utils_core.lime_illumination_block": "Lime Illumination Block",
+  "block.scalar_utils_core.magenta_illumination_block": "Magenta Illumination Block",
+  "block.scalar_utils_core.orange_illumination_block": "Orange Illumination Block",
+  "block.scalar_utils_core.pink_illumination_block": "Pink Illumination Block",
   "block.scalar_utils_core.potted_black_lotus": "Potted Black Lotus",
+  "block.scalar_utils_core.purple_illumination_block": "Purple Illumination Block",
+  "block.scalar_utils_core.red_illumination_block": "Red Illumination Block",
+  "block.scalar_utils_core.white_illumination_block": "White Illumination Block",
+  "block.scalar_utils_core.yellow_illumination_block": "Yellow Illumination Block",
 
   "itemGroup.scalar_utils_tab": "Scalar Utils 4: Core"
 }

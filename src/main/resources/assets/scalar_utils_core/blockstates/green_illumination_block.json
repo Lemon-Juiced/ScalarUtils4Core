@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "scalar_utils_core:block/green_illumination_block" }
+  }
+}
