@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "scalar_utils_core:black_illumination_block",
+    "scalar_utils_core:blue_illumination_block",
+    "scalar_utils_core:brown_illumination_block",
+    "scalar_utils_core:cyan_illumination_block",
+    "scalar_utils_core:gray_illumination_block",
+    "scalar_utils_core:green_illumination_block",
+    "scalar_utils_core:light_blue_illumination_block",
+    "scalar_utils_core:light_gray_illumination_block",
+    "scalar_utils_core:lime_illumination_block",
+    "scalar_utils_core:magenta_illumination_block",
+    "scalar_utils_core:orange_illumination_block",
+    "scalar_utils_core:pink_illumination_block",
+    "scalar_utils_core:purple_illumination_block",
+    "scalar_utils_core:red_illumination_block",
+    "scalar_utils_core:white_illumination_block",
+    "scalar_utils_core:yellow_illumination_block"
+  ]
+}
