@@ -3,6 +3,8 @@ package lemon_juice.scalar_utils_core;
 import lemon_juice.scalar_utils_core.block.ModBlocks;
 import lemon_juice.scalar_utils_core.item.ModItems;
 import lemon_juice.scalar_utils_core.loot.ModLootModifiers;
+import lemon_juice.world.feature.ModConfiguredFeatures;
+import lemon_juice.world.feature.ModPlacedFeatures;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
@@ -26,6 +28,9 @@ public class ScalarUtilsCore {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModLootModifiers.register(modEventBus);
+        //Black Lotus Generation
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_plains",
+  "features": "scalar_utils_core:black_lotus_placed",
+  "step": "vegetal_decoration"
+}
