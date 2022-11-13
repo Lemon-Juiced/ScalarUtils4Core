@@ -25,5 +25,5 @@
   "block.scalar_utils_core.white_illumination_block": "White Illumination Block",
   "block.scalar_utils_core.yellow_illumination_block": "Yellow Illumination Block",
 
-  "itemGroup.scalar_utils_tab": "Scalar Utils 4: Core"
+  "itemGroup.coreTab": "Scalar Utils 4: Core"
 }
