@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "item": "scalar_utils_core:glass_cutter"
+      },
+      "loot_table_id": "minecraft:blocks/brown_stained_glass"
+    }
+  ],
+  "item": "minecraft:brown_stained_glass",
+  "type": "scalar_utils_core:add_item"
+}

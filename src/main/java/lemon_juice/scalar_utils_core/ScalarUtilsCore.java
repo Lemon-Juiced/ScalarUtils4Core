@@ -2,6 +2,7 @@ package lemon_juice.scalar_utils_core;
 
 import lemon_juice.scalar_utils_core.block.ModBlocks;
 import lemon_juice.scalar_utils_core.item.ModItems;
+import lemon_juice.scalar_utils_core.loot.ModLootModifiers;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
@@ -24,6 +25,7 @@ public class ScalarUtilsCore {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

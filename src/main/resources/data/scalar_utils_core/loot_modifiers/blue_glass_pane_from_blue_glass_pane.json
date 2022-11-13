@@ -1,0 +1,13 @@
+{
+  "conditions": [
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "item": "scalar_utils_core:glass_cutter"
+      },
+      "loot_table_id": "minecraft:blocks/blue_stained_glass_pane"
+    }
+  ],
+  "item": "minecraft:blue_stained_glass_pane",
+  "type": "scalar_utils_core:add_item"
+}
