@@ -1,6 +1,6 @@
 package lemon_juice.scalar_utils_core.block;
 
-import lemon_juice.scalar_utils_core.ModCreativeModeTab;
+import lemon_juice.scalar_utils_core.creativetab.ModCreativeModeTab;
 import lemon_juice.scalar_utils_core.ScalarUtilsCore;
 import lemon_juice.scalar_utils_core.item.ModItems;
 import net.minecraft.world.effect.MobEffects;

@@ -1,10 +1,8 @@
 package lemon_juice.scalar_utils_core.item;
 
-import lemon_juice.scalar_utils_core.ModCreativeModeTab;
+import lemon_juice.scalar_utils_core.creativetab.ModCreativeModeTab;
 import lemon_juice.scalar_utils_core.ScalarUtilsCore;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Tiers;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

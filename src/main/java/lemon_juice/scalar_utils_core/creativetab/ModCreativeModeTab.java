@@ -1,4 +1,4 @@
-package lemon_juice.scalar_utils_core;
+package lemon_juice.scalar_utils_core.creativetab;
 
 import lemon_juice.scalar_utils_core.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
