@@ -5,7 +5,8 @@
       "predicate": {
         "item": "scalar_utils_core:glass_cutter"
       },
-      "loot_table_id": "minecraft:blocks/tinted_glass"
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:tinted_glass"
     }
   ],
   "item": "minecraft:tinted_glass",

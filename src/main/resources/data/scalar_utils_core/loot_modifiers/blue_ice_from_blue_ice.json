@@ -5,7 +5,8 @@
       "predicate": {
         "item": "scalar_utils_core:glass_cutter"
       },
-      "loot_table_id": "minecraft:blocks/blue_ice"
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:blue_ice"
     }
   ],
   "item": "minecraft:blue_ice",

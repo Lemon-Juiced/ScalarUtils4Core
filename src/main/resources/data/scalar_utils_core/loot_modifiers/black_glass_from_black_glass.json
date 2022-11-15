@@ -5,7 +5,8 @@
       "predicate": {
         "item": "scalar_utils_core:glass_cutter"
       },
-      "loot_table_id": "minecraft:blocks/black_stained_glass"
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:black_stained_glass"
     }
   ],
   "item": "minecraft:black_stained_glass",
