@@ -1,12 +1,11 @@
 package lemon_juice.scalar_utils_core;
 
 import lemon_juice.scalar_utils_core.block.ModBlocks;
+import lemon_juice.scalar_utils_core.event.CreativeTabEvent;
 import lemon_juice.scalar_utils_core.item.ModItems;
 import lemon_juice.scalar_utils_core.loot.ModLootModifiers;
-import lemon_juice.world.feature.ModConfiguredFeatures;
-import lemon_juice.world.feature.ModPlacedFeatures;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
-import net.minecraft.client.renderer.RenderType;
+import lemon_juice.scalar_utils_core.world.feature.ModConfiguredFeatures;
+import lemon_juice.scalar_utils_core.world.feature.ModPlacedFeatures;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.MinecraftForge;
@@ -17,7 +16,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(ScalarUtilsCore.MOD_ID)
 public class ScalarUtilsCore {
     public static final String MOD_ID = "scalar_utils_core";
@@ -28,11 +26,13 @@ public class ScalarUtilsCore {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModLootModifiers.register(modEventBus);
+
         //Black Lotus Generation
-        ModConfiguredFeatures.register(modEventBus);
-        ModPlacedFeatures.register(modEventBus);
+        //ModConfiguredFeatures.register(modEventBus);
+        //ModPlacedFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(CreativeTabEvent::onCreativeModeTabRegister);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -47,8 +47,7 @@ public class ScalarUtilsCore {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLACK_LOTUS.get(), RenderType.cutout());
-            ItemBlockRenderTypes.setRenderLayer(ModBlocks.POTTED_BLACK_LOTUS.get(), RenderType.cutout());
+
         }
     }
 }

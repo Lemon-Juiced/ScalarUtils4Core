@@ -2,5 +2,6 @@
   "parent": "minecraft:block/cross",
   "textures": {
     "cross": "scalar_utils_core:block/black_lotus"
-  }
+  },
+  "render_type": "cutout"
 }
